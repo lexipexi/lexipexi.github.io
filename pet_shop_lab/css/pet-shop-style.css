@@ -1,0 +1,71 @@
+/* h1{
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 45px;
+  color: black;
+
+}
+
+h2{
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: "Helvetica", sans-serif;
+} */
+
+body{
+  color: purple;
+  background-color: #FFB07A;
+
+}
+
+ul{
+  display: flex;
+  justify-content: space-around;
+  list-style:none;
+
+}
+
+li{
+  background-color: white;
+  padding: 30px;
+  font-size: 30px;
+  width: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+li:hover{
+  border:2px solid black;
+  opacity: 0.5;
+}
+
+
+/* li{
+  display:block;
+}
+
+.fish{
+  color:orange;
+  text-decoration:underline;
+  padding: 30px ;
+  margin-top: 40px;
+}
+
+.mammals{
+  color: red;
+  padding-left: 30px;
+  padding-right:30px;
+}
+
+.birds{
+  color:blue;
+  font-style:italic;
+  margin-top:30px;
+  padding-bottom:40px;
+} */
+/* #firstList{
+  background-color: lime;
+} */
